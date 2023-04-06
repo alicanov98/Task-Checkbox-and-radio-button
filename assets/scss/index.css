@@ -10,6 +10,21 @@
   width: 100%;
   height: 100vh;
   background-color: #8d2dbd;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  padding: 30px;
+}
+.home h1 {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-size: 25px;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  font-weight: 700;
+  color: #ffffff;
+  background: transparent;
+  text-shadow: 1px 3px 0 #969696, 1px 13px 5px #aba8a8;
+  margin-top: 30px;
 }
 .home .row {
   width: 100%;
@@ -18,7 +33,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  gap: 70px;
+  gap: 40px;
 }
 .home .row h2 {
   font-family: "Comic Sans MS", cursive, sans-serif;
@@ -26,10 +41,8 @@
   letter-spacing: 2px;
   word-spacing: 2px;
   font-weight: 700;
-  -webkit-text-decoration: none solid rgb(68, 68, 68);
-          text-decoration: none solid rgb(68, 68, 68);
   color: #FFFFFF;
-  background: #8d2dbd;
+  background: transparent;
   text-shadow: 1px 3px 0 #969696, 1px 13px 5px #aba8a8;
 }
 .home .row .checkBoxForm {
