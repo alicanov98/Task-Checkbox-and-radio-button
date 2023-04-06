@@ -1,0 +1,143 @@
+.home {
+  width: 100%;
+  height: 100vh;
+  background-color: #8d2dbd;
+  .row {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+gap: 70px;
+h2{
+    font-family: "Comic Sans MS", cursive, sans-serif;
+font-size: 25px;
+letter-spacing: 2px;
+word-spacing: 2px;
+font-weight: 700;
+text-decoration: none solid rgb(68, 68, 68);
+color: #FFFFFF;
+background: #8d2dbd;
+text-shadow: 1px 3px 0 #969696, 1px 13px 5px #aba8a8;
+}
+    .checkBoxForm {
+      width: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 40px;
+      input {
+        display: none;
+        &:checked {
+          & + label {
+            #imgRadio {
+                filter: saturate(100%);
+              }
+            .img {
+              filter: saturate(100%);
+              transform: scale(1);
+            }
+          }
+        }
+      }
+    //   Checkbox Start
+      #htmlLogo{
+        &:checked {
+          & + label {
+            box-shadow: 2px 2px 50px 22px rgba(231,118,69,0.87);
+            background-color: #e77645;
+          }
+        }
+      }
+      #cssLogo {
+        &:checked {
+          & + label {
+            box-shadow: 2px 2px 50px 22px rgba(69,135,231,1);
+            background-color: #4587e7;
+          }
+        }
+      }
+      #jsLogo {
+        &:checked {
+          & + label {
+            box-shadow: 2px 2px 50px 22px rgba(225,218,11,1);
+            background-color: #e1da0bec;
+          }
+        }
+      }
+      #reactLogo {
+        &:checked {
+          & + label {
+            box-shadow: 2px 2px 50px 22px rgba(45,128,189,1);
+            background-color: #2d80bd;
+          }
+        }
+      }
+    //   Checkbox End
+    //   Radio button Start
+    #radio1 {
+        &:checked {
+          & + label {
+            box-shadow: 2px 2px 50px 22px rgba(231,118,69,0.87);
+            background-color: #e77645;
+          }
+        }
+      }
+    #radio2 {
+        &:checked {
+          & + label {
+            box-shadow: 2px 2px 50px 22px rgba(69,135,231,1);
+            background-color: #4587e7;
+          }
+        }
+      }
+
+    #radio3 {
+        &:checked {
+          & + label {
+            box-shadow: 2px 2px 50px 22px rgba(225,218,11,1);
+            background-color: #e1da0bec;
+          }
+        }
+      }
+
+    #radio4 {
+        &:checked {
+          & + label {
+            box-shadow: 2px 2px 50px 22px rgba(45,128,189,1);
+            background-color: #2d80bd;
+          }
+        }
+      }
+    //   Radio button end
+.checkLabel{
+#imgRadio{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: saturate(0%);
+    transition: 0.5s cubic-bezier(1, 0.12, 0.54, 3.07);
+    transform-origin: center center;
+}
+}
+      .checkLabel {
+        width: 25%;
+        height: 100%;
+        padding: 20px;
+        background-color: #18182230;
+        border-radius: 81% 19% 81% 19% / 19% 81% 19% 81%  ;
+        box-shadow: 2px 2px 10px #181822;
+        .img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          filter: saturate(0%);
+          transform: scale(0);
+          transition: 0.5s cubic-bezier(1, 0.12, 0.54, 3.07);
+          transform-origin: center center;
+        }
+      }
+    }
+  }
+}
