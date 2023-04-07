@@ -55,8 +55,8 @@ text-shadow: 1px 3px 0 #969696, 1px 13px 5px #aba8a8;
           }
         }
       }
-    //   Checkbox Start
-      #htmlLogo{
+    //   Checkbox & Radio button Start
+      #htmlLogo,#radio1{
         &:checked {
           & + label {
             box-shadow: 2px 2px 50px 22px rgba(231,118,69,0.87);
@@ -64,7 +64,7 @@ text-shadow: 1px 3px 0 #969696, 1px 13px 5px #aba8a8;
           }
         }
       }
-      #cssLogo {
+      #cssLogo,#radio2 {
         &:checked {
           & + label {
             box-shadow: 2px 2px 50px 22px rgba(69,135,231,1);
@@ -72,7 +72,7 @@ text-shadow: 1px 3px 0 #969696, 1px 13px 5px #aba8a8;
           }
         }
       }
-      #jsLogo {
+      #jsLogo,#radio3 {
         &:checked {
           & + label {
             box-shadow: 2px 2px 50px 22px rgba(225,218,11,1);
@@ -80,7 +80,7 @@ text-shadow: 1px 3px 0 #969696, 1px 13px 5px #aba8a8;
           }
         }
       }
-      #reactLogo {
+      #reactLogo,#radio4 {
         &:checked {
           & + label {
             box-shadow: 2px 2px 50px 22px rgba(45,128,189,1);
@@ -88,43 +88,7 @@ text-shadow: 1px 3px 0 #969696, 1px 13px 5px #aba8a8;
           }
         }
       }
-    //   Checkbox End
-    //   Radio button Start
-    #radio1 {
-        &:checked {
-          & + label {
-            box-shadow: 2px 2px 50px 22px rgba(231,118,69,0.87);
-            background-color: #e77645;
-          }
-        }
-      }
-    #radio2 {
-        &:checked {
-          & + label {
-            box-shadow: 2px 2px 50px 22px rgba(69,135,231,1);
-            background-color: #4587e7;
-          }
-        }
-      }
-
-    #radio3 {
-        &:checked {
-          & + label {
-            box-shadow: 2px 2px 50px 22px rgba(225,218,11,1);
-            background-color: #e1da0bec;
-          }
-        }
-      }
-
-    #radio4 {
-        &:checked {
-          & + label {
-            box-shadow: 2px 2px 50px 22px rgba(45,128,189,1);
-            background-color: #2d80bd;
-          }
-        }
-      }
-    //   Radio button end
+    //   Checkbox & Radio button End
 .checkLabel{
 #imgRadio{
     width: 100%;
@@ -132,7 +96,6 @@ text-shadow: 1px 3px 0 #969696, 1px 13px 5px #aba8a8;
     object-fit: cover;
     filter: saturate(0%);
     transition: 0.5s cubic-bezier(1, 0.12, 0.54, 3.07);
-    transform-origin: center center;
 }
 }
       .checkLabel {

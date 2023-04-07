@@ -62,35 +62,19 @@
   filter: saturate(100%);
   transform: scale(1);
 }
-.home .row .checkBoxForm #htmlLogo:checked + label {
+.home .row .checkBoxForm #htmlLogo:checked + label, .home .row .checkBoxForm #radio1:checked + label {
   box-shadow: 2px 2px 50px 22px rgba(231, 118, 69, 0.87);
   background-color: #e77645;
 }
-.home .row .checkBoxForm #cssLogo:checked + label {
+.home .row .checkBoxForm #cssLogo:checked + label, .home .row .checkBoxForm #radio2:checked + label {
   box-shadow: 2px 2px 50px 22px rgb(69, 135, 231);
   background-color: #4587e7;
 }
-.home .row .checkBoxForm #jsLogo:checked + label {
+.home .row .checkBoxForm #jsLogo:checked + label, .home .row .checkBoxForm #radio3:checked + label {
   box-shadow: 2px 2px 50px 22px rgb(225, 218, 11);
   background-color: rgba(225, 218, 11, 0.9254901961);
 }
-.home .row .checkBoxForm #reactLogo:checked + label {
-  box-shadow: 2px 2px 50px 22px rgb(45, 128, 189);
-  background-color: #2d80bd;
-}
-.home .row .checkBoxForm #radio1:checked + label {
-  box-shadow: 2px 2px 50px 22px rgba(231, 118, 69, 0.87);
-  background-color: #e77645;
-}
-.home .row .checkBoxForm #radio2:checked + label {
-  box-shadow: 2px 2px 50px 22px rgb(69, 135, 231);
-  background-color: #4587e7;
-}
-.home .row .checkBoxForm #radio3:checked + label {
-  box-shadow: 2px 2px 50px 22px rgb(225, 218, 11);
-  background-color: rgba(225, 218, 11, 0.9254901961);
-}
-.home .row .checkBoxForm #radio4:checked + label {
+.home .row .checkBoxForm #reactLogo:checked + label, .home .row .checkBoxForm #radio4:checked + label {
   box-shadow: 2px 2px 50px 22px rgb(45, 128, 189);
   background-color: #2d80bd;
 }
@@ -101,7 +85,6 @@
      object-fit: cover;
   filter: saturate(0%);
   transition: 0.5s cubic-bezier(1, 0.12, 0.54, 3.07);
-  transform-origin: center center;
 }
 .home .row .checkBoxForm .checkLabel {
   width: 25%;
